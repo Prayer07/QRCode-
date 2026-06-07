@@ -1,7 +1,8 @@
-import pkg from "whatsapp-web.js"
-const { Client, MessageMedia } = pkg
+/*
+import pkg from "whatsapp-web.js";
+const { Client, MessageMedia } = pkg;
 
-const client = new Client()
+const client = new Client();
 
 client.on("ready", async () => {
     const media = MessageMedia.fromFilePath(
@@ -9,14 +10,15 @@ client.on("ready", async () => {
     );
 
     await client.sendMessage(
-        "2349161083039",
+        "2349161083039@c.us",
         media,
         {
             caption: "How far na"
         }
-    )
-    
-    console.log("Image sent")
-})
+    );
+
+    console.log("Image sent");
+});
 
 client.initialize();
+*/
